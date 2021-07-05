@@ -8,13 +8,14 @@ h1{
 .orange-color{
     color: orange;
 } 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left:3%;
+   
 }
 .half-width img{
     width: 80%;
@@ -36,4 +37,36 @@ section{
     background-image:url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    
+}
+.love-story{
+    box-shadow: 10px 10px 50px rgb(10, 4, 34);
+    width: 40%;
+    padding-left:3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+   
+}
+#web-dev{
+     border-left:7px solid;
+     border-top-left-radius: 5px;
+     border-image: linear-gradient(blue,cyan);
+     border-image-slice:1;
+}
+#web-devlp{
+    border-left:7px solid;
+    border-top-left-radius: 15px;
+    border-image: linear-gradient(rgb(255, 0, 221),rgb(233, 177, 233));
+    border-image-slice:1;
+}
+footer p{
+     text-align: center;
+     color: darkmagenta;
+
 }
